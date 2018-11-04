@@ -10,11 +10,17 @@ let MessageSchema = new Schema({
       required: true
     },
 
-    message:{
+    message: {
       type: String,
       trim: true,
       required: true
+    },
+
+    date: {
+      type: Date,
+      default: Date.now
     }
+
 });
 
 let Message = mongoose.model("Message", MessageSchema);

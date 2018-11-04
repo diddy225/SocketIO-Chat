@@ -41,10 +41,8 @@ section {
 }
 
 #login-btn {
-  width: 50px;
-  height: 25px;
-  border: none;
-  background-color: #ff9280;
+  font-size: 20px;
+  color: #fff
 }
 
 .send-box {
@@ -94,9 +92,20 @@ section {
   border: 1px solid #aaa;
   margin-bottom: 15px;
   border-radius: 5px;
-  width: 40%;
+  width: 90%;
   box-shadow: 1px 1px 5px #aaa;
   word-wrap: break-word;
+}
+
+.chatname {
+  font-weight: 700;
+  color: #ff2400;
+  line-height: 1.5;
+}
+
+.timestamp {
+  color: #aaa;
+  font-size: 14px;
 }
 
 footer {
@@ -104,4 +113,15 @@ footer {
   text-align: center;
   font-size: 12px;
   color: #555;
+}
+
+@media screen and (min-width: 500px) {
+  #app {
+    margin: 10px auto;
+    height: 79vh;
+  }
+  #app p {
+    width: 50%;
+    justify-self: center;
+  }
 }
