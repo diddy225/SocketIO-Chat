@@ -1,0 +1,85 @@
+body {
+  background-color: #f2f4fb;
+}
+
+input {
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+}
+
+.login-form {
+  margin-bottom: 20px;
+  padding: 20px 0;
+  background-color: #45315d;
+  text-align: center;
+}
+
+.login-form input {
+  background-color: #45315d;
+  height: 25px;
+  width: 125px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.login-form input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+#login-btn {
+  width: 50px;
+  height: 25px;
+  border: none;
+  background-color: #ff9280;
+}
+
+.send-box {
+  padding: 5px;
+}
+
+.send-box input {
+  border: 1px solid #555;
+  background-color: #f2f4fb;
+  color: #555;
+  width: 80%;
+  padding: 5px;
+}
+
+#send-btn {
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ff2400;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: ease .1s;
+  height: 28px;
+  padding: 4px;
+}
+
+#send-btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+#app {
+  display: grid;
+  align-content: flex-start;
+  color: #555;
+  padding-left: 5px;
+  width: 96vw;
+  height: 85vh;
+  overflow: auto;
+}
+
+#app p {
+  padding: 8px;
+  border: 1px solid #aaa;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 40%;
+  box-shadow: 2px 2px 10px #aaa;
+  word-wrap: break-word;
+}

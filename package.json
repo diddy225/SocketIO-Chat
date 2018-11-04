@@ -1,0 +1,16 @@
+{
+  "name": "socket-io",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Matthew Carpenter",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9",
+    "socket.io": "^2.1.1"
+  }
+}
