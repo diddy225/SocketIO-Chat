@@ -42,7 +42,12 @@ section {
 
 #login-btn {
   font-size: 20px;
-  color: #fff
+  color: #fff;
+  cursor: pointer;
+}
+
+#login-btn:hover {
+  color: #ff2400;
 }
 
 .send-box {

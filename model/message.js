@@ -15,12 +15,6 @@ let MessageSchema = new Schema({
       trim: true,
       required: true
     },
-
-    date: {
-      type: Date,
-      default: Date.now
-    }
-
 });
 
 let Message = mongoose.model("Message", MessageSchema);
