@@ -7,4 +7,7 @@ module.exports = function (app) {
 
   const getMessage = new RestfulAPI('api/chat', app, db.Message);
   getMessage.findAll();
-}
+
+  const createPrivate = new RestfulAPI('api/private', app, db.Chat);
+  createPrivate.create();
+};

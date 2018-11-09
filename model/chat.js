@@ -13,12 +13,6 @@ let ChatSchema = new Schema({
       user1: String,
       user2: String,
     }],
-
-    date: {
-      type: Date,
-      default: Date.now
-    }
-
 });
 
 let Chat = mongoose.model("Chat", ChatSchema);

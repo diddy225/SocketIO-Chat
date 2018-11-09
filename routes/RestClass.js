@@ -28,7 +28,6 @@ class RestfulAPI {
         });
     });
   };
-
 } 
 
 module.exports = RestfulAPI;
