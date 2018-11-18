@@ -14,7 +14,7 @@ module.exports = io => {
       console.log('newdata', newData);
       const socket1 = users[newData.user1];
       const socket2 = users[newData.user2];
-
+      
       socket1.emit('emit-message', newData);
       socket2.emit('emit-message', newData);
     })

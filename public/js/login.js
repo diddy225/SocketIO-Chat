@@ -5,7 +5,7 @@ const login = function (event){
 
 
   //post request verify username and password .then()
-  localStorage.setItem('user', user);
+  sessionStorage.setItem('user', user);
   window.location.href = '/chat';
 }
 

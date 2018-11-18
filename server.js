@@ -10,7 +10,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost/realTimeChat', { useNewUrlParser: true});
+// mongoose.connect('mongodb://localhost/realTimeChat', { useNewUrlParser: true});
+mongoose.connect('mongodb://user:pass123@ds211694.mlab.com:11694/heroku_sbgfz701', { useNewUrlParser: true});
 
 require('./sockets/message-sockets.js')(io);
 require('./routes/html-routes.js')(app);

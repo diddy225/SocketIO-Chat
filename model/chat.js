@@ -10,9 +10,10 @@ let ChatSchema = new Schema({
     }],
 
     userName: [{
+      type: Object,
       user1: String,
-      user2: String,
-    }],
+      user2: String
+    }]
 });
 
 let Chat = mongoose.model("Chat", ChatSchema);
