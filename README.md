@@ -1,4 +1,4 @@
-# SocketIO-Chat
+# SocketIO-Chat App
 
 **Part 1:**
 
